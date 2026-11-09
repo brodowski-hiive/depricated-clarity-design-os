@@ -1,7 +1,9 @@
 {
   "name": "clarity-design-os",
-  "version": "1.9.1",
+  "displayName": "Clarity Design OS",
+  "version": "1.9.2",
   "description": "Clarity's design operating system: mocks and prototypes, design review, design-system audits, Figma hygiene, and design-team triage.",
+  "icon": "./assets/icon.png",
   "author": {
     "name": "Clarity Design"
   },
