@@ -69,9 +69,12 @@ Other agents that read `SKILL.md` (Cursor and others) can link the same `skills/
 
 ## Repo layout
 
-Each folder under `skills/` is one skill: a `SKILL.md`, plus `references/` when needed and `evals/` (`evals.json` and `trigger-evals.json`). Each file under `agents/` is one subagent (Claude only). The Claude plugin manifest lives in `.claude-plugin/`; `.agents/skills/` links to `skills/` so Codex finds them. Agent instructions for working in this repo are in [AGENTS.md](AGENTS.md); `CLAUDE.md` just imports it for Claude Code.
+Each folder under `skills/` is one skill: a `SKILL.md`, plus `references/` when needed and `evals/` (`evals.json` and `trigger-evals.json`). Each file under `agents/` is one subagent (Claude only). The Claude plugin manifest lives in `.claude-plugin/`, and its icon in `assets/`; `.agents/skills/` links to `skills/` so Codex finds them. Agent instructions for working in this repo are in [AGENTS.md](AGENTS.md); `CLAUDE.md` just imports it for Claude Code.
 
 ## What's new
+
+**1.9.2 (Nov 9, 2026)**
+- The plugin has an icon (`assets/icon.png`, the dOS mark) and a display name, Clarity Design OS. Claude Code ignores `icon`; it's there for listings that read it, so it may not show on the org's Plugins page yet.
 
 **1.9.1 (Oct 23, 2026)**
 - One Clarity data reference: `design-os-fill-mock-data`'s `references/domain-data.md` now holds typical values and extremes for each topic, plus the one consistency checklist. `design-os-stress-test-design`'s `stress-data.md` is merged into it, and the stress test and prep-eng-handoff check mock math against it instead of keeping their own copies.
